@@ -160,3 +160,96 @@ img {
 
 
 }
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+
+  * {
+   box-sizing: border-box;
+   margin: 0;
+   text-align: center;
+  }
+
+  .row {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    text-align: center;
+  }
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left , #lezioni .row>.right {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+  }
+  #lezioni .row>.right img {
+    padding-right: 0px;
+  }
+  /* /BLOCCO LEZIONI */
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #steps img{
+    height: 200px;
+    padding: 0 50px 50px 50px;
+  }
+  /* /BLOCCO STEPS */
+
+  /* BLOCCO PERCHE */
+  #why.container , #steps.container {
+    float: left;   /* per eliminare spazio bianco tra i due blocchi */
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    padding: 50px;
+    margin-top: 0;
+  }
+
+  #why img{
+    float: none;
+    height: 200px;
+    padding: 50px 50px 0 50px;
+    border-radius: 10%;
+  }
+  /*/ BLOCCO PERCHE */
+
+  /* COMMON */
+  #steps .row>.right , #lezioni .row>.right {
+    border-bottom: 2px dotted #808080;
+  }
+
+  img {
+    float: right;
+    height: 200px;
+    padding: 0 50px 50px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  h1 {
+    font-size: 55px;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-size: 35px;
+    line-height: 60px;
+    }
+  /* /COMMON */
+}
